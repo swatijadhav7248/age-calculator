@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Itim',cursive;
+}
+
+body {
+    background-color: wheat;
+}
+
+.container{
+    width: 800px;
+    background-color:#0E2F2F;
+    margin-left: 450px;
+    margin-top: 300px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px rgb(91,92,95);
+    font-family: 'Itim',cursive;
+    color: rgb(247,173,82);
+}
+
+form {
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+input {
+    width: 210px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: dimgray;
+}
+
+#ageCalculate {
+    margin-right: 78px;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+}
