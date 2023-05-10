@@ -11,7 +11,8 @@ body {
 }
 
 .container{
-    width: 800px;
+    width: 700px;
+    height: 250px;
     background-color:#0E2F2F;
     margin-left: 450px;
     margin-top: 300px;
@@ -32,10 +33,12 @@ form {
     margin-left: 20px;
     font-size: x-large;
     font-weight: bolder;
+    padding-top: 10px;
 }
 
 input {
     width: 210px;
+    height:50px;
     padding: 8px;
     margin: 10px;
     border-radius: 10px;
@@ -46,8 +49,56 @@ input {
 }
 
 #ageCalculate {
-    margin-right: 78px;
+    margin-right: 10px;
+    margin-left: 170px;
     color:white;
     border-radius: 10px;
     text-align: center;
+    padding-top: 20px;
+}
+
+
+#calculateAge{
+    margin-right:10px;
+    margin-left: 190px;
+    margin-top: 10px;
+    color:white;
+    background-color: orange;
+    height:30px;
+    width:160px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+
+}
+
+#Reset{
+    margin-left: 10px;
+    margin-top: 10px;
+    color:white;
+    background-color: orange;
+    height:30px;
+    width:100px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    
+}
+
+#total{
+    margin-left: 200px;
+    padding-left: 10%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#socialMedia{
+    margin-left: 300px;
+    padding-top: 20px;
+    color: white;
+    letter-spacing: 10px;
+    font-size: larger;
+    
 }
